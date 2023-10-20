@@ -20,25 +20,19 @@ Situation: Client 1 will eine Email an einen 2. Client senden
 
 ### Platzhalter
 <details>
-  <summary>Choose an Option</summary>
+  <summary>Wie heißt das Protokoll?</summary>
 
   <select id="dropdown">
-    <option value="option1">Option 1</option>
-    <option value="option2">Option 2</option>
-    <option value="option3">Option 3</option>
+    <option value="option1">MTA</option>
+    <option value="option2">MUA</option>
+    <option value="option3">SMTP</option>
   </select>
 
   <button onclick="displayOption()">Select</button>
 
   <p id="result"></p>
 
-  <script>
-    function displayOption() {
-      var dropdown = document.getElementById("dropdown");
-      var result = document.getElementById("result");
-      result.innerHTML = "You selected: " + dropdown.options[dropdown.selectedIndex].text;
-    }
-  </script>
+
 </details>
 
 
