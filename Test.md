@@ -7,6 +7,7 @@
 Situation: Client 1 will eine Email an einen 2. Client senden
 
 - Das verwendete Protokoll heißt
+  
 
 
 1.  sendet per SMTPS die Email an einen 2 Client dabei gelten beide Clients als MUA  ( Mail User Agent )
@@ -18,6 +19,27 @@ Situation: Client 1 will eine Email an einen 2. Client senden
 # Test
 
 ### Platzhalter
+<details>
+  <summary>Choose an Option</summary>
+
+  <select id="dropdown">
+    <option value="option1">Option 1</option>
+    <option value="option2">Option 2</option>
+    <option value="option3">Option 3</option>
+  </select>
+
+  <button onclick="displayOption()">Select</button>
+
+  <p id="result"></p>
+
+  <script>
+    function displayOption() {
+      var dropdown = document.getElementById("dropdown");
+      var result = document.getElementById("result");
+      result.innerHTML = "You selected: " + dropdown.options[dropdown.selectedIndex].text;
+    }
+  </script>
+</details>
 
 
 
