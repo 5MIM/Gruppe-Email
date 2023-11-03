@@ -9,9 +9,9 @@ Situation: Client 1 will eine Email an einen 2. Client senden
 1.  sendet per SMTPS die Email an einen 2 Client dabei gelten beide Clients als MUA  ( Mail User Agent )
 <details>
   <summary>Wie heißt das Protokoll?</summary>
+  <li>MTA</li>
   <li>MUA</li>
-  <li>MUA</li>
-  <li>MUA</li>
+  <li>SMTPS</li>
 </details>
    
 3. Der Client 1 sendet die Mail an den Mail server von seiner Domaine. Dieser Mailserver erfragt dann beim DNS System nach der Addresse der Ziel Domaine von client 2.
