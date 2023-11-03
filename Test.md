@@ -13,7 +13,7 @@ Situation: Client 1 will eine Email an einen 2. Client senden
 
 
 <details>
-  <summary>Wie heißt das Protokoll?</summary>
+  <summary>Wie heißt das Protokoll mit dem die Mailsever E-Mails übermitteln und über welchen Port kommuniziert es?</summary>
   <li>MUA</li>
   <li>MUA</li>
   <li>MUA</li>
@@ -28,6 +28,20 @@ Situation: Client 1 will eine Email an einen 2. Client senden
 
 <details>
   <summary>Was für eine Aufgabe bzw. Funktion hat der MX-Record?</summary>
+  <li>MUA</li>
+  <li>MUA</li>
+  <li>MUA</li>
+</details>
+
+<details>
+  <summary>Welche beiden Protokolle kommen beim Abrufen des E-Mail Postfachs zum Einsatz?</summary>
+  <li>MUA</li>
+  <li>MUA</li>
+  <li>MUA</li>
+</details>
+
+<details>
+  <summary>Welche beiden Protokolle kommen beim Abrufen des E-Mail Postfachs zum Einsatz?</summary>
   <li>MUA</li>
   <li>MUA</li>
   <li>MUA</li>
